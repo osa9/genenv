@@ -1,0 +1,25 @@
+{
+  "source": "gcp",
+  "env": {
+    "": {
+      "CLIENT_KEY": "CLIENT_KEY",
+      "CLIENT_SECRET": {
+        "id": "CLIENT_SECRET"
+      },
+      "credentials.json": {
+        "id": "CREDENTIAL_FILE",
+        "type": "file"
+      }
+    },
+    "dev": {
+      "CLIENT_KEY": "DEV_KEY",
+      "CLIENT_SECRET": {
+        "id": "DEV_SECRET"
+      },
+      "credentials-dev.json": {
+        "id": "CREDENTIAL_FILE_DEV",
+        "type": "file"
+      }
+    }
+  }
+}

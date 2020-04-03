@@ -1,0 +1,27 @@
+{
+  "name": "genenv",
+  "version": "0.1.0",
+  "description": "Generate .env file from Cloud",
+  "bin": {
+    "genenv": "lib/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/secret-manager": "^2.1.0",
+    "commander": "^5.0.0",
+    "google-auth-library": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osa9/cloudenv.git"
+  },
+  "author": "osa9",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osa9/cloudenv/issues"
+  },
+  "homepage": "https://github.com/osa9/cloudenv#readme"
+}
